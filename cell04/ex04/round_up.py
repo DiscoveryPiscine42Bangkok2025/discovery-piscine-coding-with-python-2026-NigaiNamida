@@ -1,2 +1,3 @@
+import math
 number = input("Give me a number: ")
-print(f"{int((float(number) + 0.5))}")
+print(f"{math.ceil(float(number))}")
